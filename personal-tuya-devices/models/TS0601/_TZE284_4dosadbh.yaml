@@ -1,0 +1,11 @@
+deviceLabel: Temperature Sensor
+
+profiles:
+  - normal_temperature_v1
+
+datapoints:
+  - id: 1
+    command: temperatureMeasurement
+    base:
+      group: 1
+      rate: 1000
